@@ -1,0 +1,51 @@
+body {
+    background-color: lightskyblue;
+    margin: 0;
+    padding: 0;
+}
+
+#conteiner {
+    position: relative;
+    background-color: white;
+    width: 700px;
+    margin: 10px auto;
+    padding: 15px;
+}
+
+.novo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+}
+
+
+#topo {
+    background-color: #0497f3;
+    padding: 1em;
+}
+
+.logo {
+    width: 100px;
+}
+
+a {
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: white;
+    color: #0497f3;
+}
+
+#chat {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 150px;
+    height: 200px;
+    background-color: violet;
+    padding: 0.5em;
+}
