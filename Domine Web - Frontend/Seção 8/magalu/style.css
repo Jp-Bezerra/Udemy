@@ -1,0 +1,25 @@
+.topo, .rodape {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.topo img {
+    width: 250px;
+}
+
+.topo a {
+    color: white;
+}
+
+.topo span {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.desconto {
+    background-color: purple;
+}
+
+.rodape span {
+    color: purple;
+}

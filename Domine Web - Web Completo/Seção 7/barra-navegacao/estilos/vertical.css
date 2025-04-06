@@ -1,0 +1,22 @@
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ul a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background: #f7b600 url(imagens/menu.png) no-repeat;
+    text-indent: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+ul a:hover, .selecionado a {
+    background-position: right bottom;
+    color: white;
+    background-color: #f99200;
+}

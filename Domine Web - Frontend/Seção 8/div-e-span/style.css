@@ -1,0 +1,25 @@
+.topo {
+    border-bottom: 1px solid black;
+}
+
+.topo img {
+    width: 100px;
+}
+
+.topo .nav span a{
+    background-color: black;
+    color: white;
+}
+
+.principal {
+    background-color: lightgray;
+}
+
+.principal span {
+    color: purple;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+}
