@@ -1,0 +1,36 @@
+
+#menu ul {
+    background-color: #24252a;
+    list-style-type: none;
+    width: 720px;
+    padding: 0.5em;
+    border: 1px solid red;
+}
+
+#menu ul li {
+    background-color: #24252a;
+}
+
+#menu li a {
+    float: left;
+    display: block;
+    padding: 0.5em 1.5em;
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5em;
+}
+
+#menu ul::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#menu li a:hover {
+    background-color: #0582ac;
+    border-radius: 1.2em;
+}
+
+#meu li a:active {
+    background-color: #7a7a7a;
+}

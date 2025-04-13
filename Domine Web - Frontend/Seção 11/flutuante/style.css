@@ -1,0 +1,40 @@
+#principal {
+    border: 1px solid red;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#principal::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#conteudo {
+    float: left;
+    width: 600px;
+}
+
+.noticia {
+    padding: 5px;
+    margin: 7px;
+    float: left;
+}
+
+#lateral {
+    width: 300px;
+    float: right;
+}
+
+.marcacao {
+    border: 1px solid #e5e5e5;
+    padding: 8px;
+    margin: 2px 8px;
+}
+
+#rodape {
+    width: 920px;
+    margin: 0 auto;
+    background-color: gray;
+    color: black;
+}
